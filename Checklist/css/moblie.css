@@ -1,0 +1,69 @@
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    margin-top: 16px;
+    text-align: center;
+    color: #FA5736;
+
+  }
+
+
+  .insert {
+    position: relative;
+    padding: 25px;
+    border-top: solid 1px #3B3841;
+    overflow: hidden;
+    background: #ef9f8d;
+  }
+
+  #js-insert {
+    top: 0;
+    left: 50px;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: inherit;
+    color: white;
+    background: #ef9f8d;
+  }
+
+
+  .button {
+    display: inline-flex;
+    margin: 0 4px;
+    padding: 2px 8px;
+    font-size: 13px;
+    color: #6C6777;
+    border: solid 1px #f91863;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .todo span {
+    display: block;
+    margin-left: 30px;
+    font-size: 18px;
+    transition: color 0.3s ease-out;
+  }
+
+
+
+  .bar {
+    color: white;
+    background: #ef9f8d;
+    border-top: solid 1px #ddd;
+    border-bottom: solid 1px #ddd;
+
+  }
+
+
+  .list {
+    position: relative;
+    background: #ef9f8d;
+  }
+
+}
